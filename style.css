@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 95vh;
+    width: 100%;
+    background-color: #ffff;
+}
+.name {
+    color: rgb(19, 18, 17);
+    margin-top: 1%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    display: flex;
+}
+#both {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#Container {
+    border-radius: 20px;
+    border: 3px solid #008b8B;
+    padding: 10px 60px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+#Container2 {
+    border-radius: 20px;
+    border: 3px solid #008b8B;
+    padding: 10px 60px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+.signup {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.login {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.check {
+    font-size: 0.5rem;
+    display: flex;
+}
+#Container .main input {
+    /* border : 1.5px solid black; */
+}
+#Container .main input:hover {
+    border: 1.5px solid black;
+}
+#Container2 .main2 input {
+    /* border : 1.5px solid black; */
+}
+#Container2 .main2 input:hover {
+    border: 1.5px solid black;
+}
+#submit {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #008b8B;
+    color: #ffff;
+    font-weight: 400;
+    border: 2px solid white;
+}
+#submit:hover {
+    background-color: #008b8B;
+    color: #ffff;
+    border: 2px solid black;
+}
+#img {
+    position: absolute;
+    margin-left: -22px;
+    margin-top: 3px;
+    height: 20px;
+    cursor: pointer;
+}
+@media (min-width : 0px) and (max-width : 620px) {
+    body{
+        width : 100%;
+    }
+    .name {
+        font-size: 1rem;
+        font-weight: 800;
+        display: flex;
+        margin-top: 10px;
+    }
+    #both {
+        display: block;
+       display: grid;
+    }
+    #Container {
+        display: block;
+        display: flex;
+        justify-content: center;
+        width : 100px;
+        padding: 10px 60px;
+        font-size: 0.7rem;
+    }
+    #Container2 {
+        display: flex;
+        justify-content: center;
+        width : 100px;
+        padding: 10px 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 0.7rem;
+    }
+    .signup {
+        margin-top: -10px;
+        padding: px;
+        font-size: 1rem;
+    }
+    .login {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    #submit {
+        width: 180px;
+        height: 30px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    #img {
+        margin-top: 1.3px;
+    }
+}
+@media (min-width : 620px) and (max-width : 1024px){
+    .name{
+        font-size: 1.6rem;
+    }
+    #Container {
+        font-size: 0.8rem;
+        margin-top: 0px;
+    }
+
+    #Container2 {
+        font-size: 0.8rem;
+    }
+    #submit {
+        width: 180px;
+        height: 30px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    #img {
+        margin-top: 1.3px;
+    }
+}
+@media (min-width : 1024px) and (max-width : 1440px){
+   .name{
+    font-size: 1.8rem;
+   }
+   #Container {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Container2 {
+    font-size: 0.8rem;
+}
+}
