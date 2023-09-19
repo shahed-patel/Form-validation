@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     let submit = document.querySelector('#submit');    submit.addEventListener('click', validate);
     
-    //VALIDATION FOR AND FALSE
+    //VALIDATION FOR TRUE AND FALSE
     flag=0;
     function validate() {
         if (flag == 0) {
