@@ -135,6 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
     pswd.addEventListener('input', confirmchk);
     pswd2.addEventListener('input', confirmchk);
 
+    //VALIDATION FOR PASSWORD2 MATCHES
     function confirmchk() {
         if (pswd2.value.length > 0) {
             if (pswd.value !== pswd2.value) {
@@ -155,6 +156,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let div1 = document.getElementsByClassName('div')[0];
 
+    //VALIDATION FOR CAPSLOCK
     window.addEventListener('keyup', cap);
     function cap() {
         var cp = event.getModifierState('CapsLock');
@@ -172,6 +174,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     pswd.addEventListener('input', validate1);
 
+    //VALIDATION FOR COMPULSARY REQUIREMENT
     function validate1() {
 
         let upper = document.querySelector('.upper');
