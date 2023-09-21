@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name {
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+#both {
+    width: 100%;
+    display: flex;
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: black;
+}
+
+#Container {
+    border-radius: 20px;
+    border: 3px solid #016064;
+    padding: 10px 60px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px #016064;
+}
+
+#Container2 {
+    display: none;
+    border-radius: 20px;
+    border: 3px solid #016064;
+    padding: 10px 60px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    box-shadow: 10px 10px 10px #016064;
+}
+
+.signup {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.check {
+    font-size: 0.5rem;
+    display: flex;
+}
+
+#Container .main input {
+    width: 200px;
+}
+
+#Container .main input:hover {
+    border: 1.5px solid #016064;
+    font-weight: 600;
+}
+
+#Container2 .main2 input {
+    width: 200px;
+    font-weight: 600;
+}
+
+#Container2 .main2 input:hover {
+    border: 1.5px solid black;
+}
+
+#submit {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #016064;
+    color: #ffff;
+    font-weight: 400;
+    border: 2px solid white;
+}
+
+#submit:hover {
+    background-color: #016064;
+    color: #ffff;
+    border: 2px solid black;
+}
+
+#img {
+    position: absolute;
+    margin-left: -22px;
+    margin-top: 3px;
+    height: 20px;
+    cursor: pointer;
+}
+
+@media (min-width : 0px) and (max-width : 620px) {
+    body {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 1rem;
+        font-weight: 800;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    #Container {
+        padding: 10px 25px;
+        font-size: 0.7rem;
+        margin-top: 0px;
+
+    }
+
+    #Container2 {
+
+        display: flex;
+        justify-content: center;
+        padding: 10px 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 0.7rem;
+        display: none;
+    }
+
+    .signup {
+        margin-top: -10px;
+        padding: px;
+        font-size: 1rem;
+    }
+
+    .login {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    #submit {
+        width: 200px;
+        height: 30px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    #img {
+        margin-left: -22px;
+        margin-top: 1.3px;
+        height: 20px;
+    }
+
+    #Container .main input {
+        width: 180px;
+    }
+
+    #Container2 .main2 input {
+        width: 180px;
+    }
+}
+
+@media (min-width : 620px) and (max-width : 1024px) {
+    .name {
+        font-size: 1.6rem;
+    }
+
+    #Container {
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #Container2 {
+        font-size: 0.8rem;
+        display: none;
+        margin-top: 0px;
+    }
+
+    #submit {
+        width: 180px;
+        height: 30px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    #img {
+        margin-top: 1.3px;
+    }
+
+    #Container .main input {
+        width: 180px;
+    }
+
+    #Container2 .main2 input {
+        width: 180px;
+    }
+}
+
+@media (min-width : 1024px) and (max-width : 1440px) {
+    .name {
+        font-size: 1.8rem;
+    }
+
+    #Container {
+        font-size: 0.8rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 60px;
+    }
+
+    #Container2 {
+        font-size: 0.8rem;
+        display: none;
+        padding: 10px 60px;
+    }
+
+    #img {
+        margin-top: 1.1px;
+    }
+
+    #Container .main input {
+        width: 180px;
+    }
+
+    #Container2 .main2 input {
+        width: 180px;
+    }
+}
+
+@media (min-width : 1440px) and (max-width : 2560px) {
+    #Container2 {
+        font-size: 0.8rem;
+        display: none;
+    }
+}
